@@ -1,0 +1,28 @@
+h1,h2{
+    text-align: center;
+}
+.resources{
+    display: flex;
+    
+}
+.general{
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    background-color: aquamarine;
+}
+.specific{
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    background-color: cyan;
+}
+.img{
+
+    height: auto;
+    width: 90px;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
