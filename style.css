@@ -1,4 +1,4 @@
-h1,h2{
+h1,h2,h3{
     text-align: center;
 }
 .resources{
@@ -12,6 +12,7 @@ h1,h2{
     background-color: aquamarine;
 }
 .specific{
+    
     width: 50%;
     height: auto;
     text-align: justify;
@@ -25,4 +26,32 @@ h1,h2{
 }
 li{
     list-style: none;
+}
+a{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+.inside{
+    
+    display: flex;
+    flex:blue;
+    
+    
+}
+.space{
+    width: 25%;
+    height: auto;
+}
+.kanji{
+    background-color: firebrick;
+}
+.grammar{
+    background-color: forestgreen;
+}
+.dictionary{
+    background-color: goldenrod;
+}
+.apps{
+    background-color: indigo;
 }
