@@ -24,34 +24,42 @@ h1,h2,h3{
     width: 90px;
     align-items: center;
 }
-li{
+.list{
+    list-style: disc;
+}
+#list{
     list-style: none;
 }
 a{
     font-size: larger;
     font-weight: bold;
     text-align: center;
+    
 }
 .inside{
     
     display: flex;
     flex:blue;
-    
+
     
 }
 .space{
-    width: 25%;
+    width: 50%;
     height: auto;
 }
 .kanji{
-    background-color: firebrick;
+    
+
 }
 .grammar{
-    background-color: forestgreen;
+   
 }
-.dictionary{
-    background-color: goldenrod;
+.vl{
+    border-left: 5px solid blueviolet;
+    height: auto;
 }
-.apps{
-    background-color: indigo;
+span{
+    font-size: small;
+    text-align: justify;
+    color: black;
 }
