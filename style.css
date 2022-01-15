@@ -1,5 +1,31 @@
+body{
+    background-color: #3B4252;
+}
+#heading{
+    background-color: #2a9d8f;
+    margin: 12px 120px;
+}
+#general{
+    background-color: #0077b6;
+    margin: 2px 90px;
+}
+#specific{
+    background-color: #00b4d8;
+    margin: 2px 90px;    
+}
+#kanji{
+    background-color: #cdb4db;
+    margin: 2px 12px;
+
+}
+#grammar{
+    background-color: #cdb4db;
+    margin: 2px 12px;
+}
 h1,h2,h3{
     text-align: center;
+    color: #1d3557;
+    background-color: ;
 }
 .resources{
     display: flex;
@@ -9,14 +35,14 @@ h1,h2,h3{
     width: 50%;
     height: auto;
     text-align: justify;
-    background-color: aquamarine;
+    background-color: #88C0D0;
 }
 .specific{
     
     width: 50%;
     height: auto;
     text-align: justify;
-    background-color: cyan;
+    background-color: #5E81AC;
 }
 .img{
 
@@ -56,7 +82,7 @@ a{
    
 }
 .vl{
-    border-left: 5px solid blueviolet;
+    border-left: 3px solid #023e8a;
     height: auto;
 }
 span{
