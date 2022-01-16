@@ -32,14 +32,14 @@ h1,h2,h3{
     
 }
 .general{
-    width: 50%;
+    width: 45%;
     height: auto;
     text-align: justify;
     background-color: #88C0D0;
 }
 .specific{
     
-    width: 50%;
+    width: 55%;
     height: auto;
     text-align: justify;
     background-color: #5E81AC;
@@ -57,7 +57,7 @@ h1,h2,h3{
     list-style: none;
 }
 a{
-    font-size: larger;
+    font-size: 16.5px;
     font-weight: bold;
     text-align: center;
     text-decoration: underline greenyellow;
