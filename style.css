@@ -6,6 +6,8 @@ body{
 #heading{
     background-color: #2a9d8f;
     margin: 12px 120px;
+    font-size: 2em;
+    text-align: center;
 
 }
 .chalkline{
