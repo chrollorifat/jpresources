@@ -57,10 +57,10 @@ h1,h2,h3{
     background-color: #5E81AC;
 }
 .img{
-    
+    text-align: center;
     height: auto;
     width: 90px;
-    align-items: center;
+
 }
 .list{
     list-style: disc;
