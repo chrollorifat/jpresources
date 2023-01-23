@@ -1,0 +1,206 @@
+/* Define a font for the entire website */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    }
+    
+    /* Define a font color for headings */
+    h1, h2 {
+    color: #333333;
+    }
+    
+    /* Define a font size for headings */
+    h1 {
+    font-size: 2.5em;
+    }
+    
+    h2 {
+    font-size: 2em;
+    }
+    
+    /* Define a style for the horizontal line */
+    hr {
+    border: 0;
+    height: 1px;
+    background-color: #cccccc;
+    }
+    
+    /* Define a style for the resources container */
+    .resources-container {
+    display: flex;
+    justify-content: center;
+    }
+    
+    /* Define a style for the general resources section */
+    .general-resources {
+    width: 50%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #cccccc;
+    margin-right: 20px;
+    }
+    
+    /* Define a style for the specific resources section */
+    .specific-resources {
+    width: 50%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #cccccc;
+    }
+    
+    /* Define a style for links within the resources sections */
+    .general-resources a,.specific-resources a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    }
+    
+    /* Define a style for links when hovered over */
+    .general-resources a:hover, .specific-resources a:hover {
+    color: #003399;
+    text-decoration: underline;
+    transform: scale(1.1);
+    }
+    
+    /* Define a media query for smaller screens /
+    @media only screen and (max-width: 768px) {
+    / Change the flex direction for the resources container */
+    .resources-container {
+    flex-direction: column;
+    }
+    
+    /* Change the width of the resources sections */
+    .general-resources, .specific-resources {
+        width: 100%;
+    }
+    
+    }
+    
+    /* Define a media query for larger screens /
+    @media only screen and (min-width: 768px) {
+    / Change the font size for headings */
+    h1 {
+    font-size: 3em;
+    }
+    
+    h2 {
+        font-size: 2.5em;
+    }
+    
+    /* Add a background gradient for the resources section */
+    .general-resources, .specific-resources {
+        background: linear-gradient(to right, #f0f0f0, #e5e5e5);
+    }
+    
+    /* Define a style for the resources sections with a border radius */
+    .general-resources, .specific-resources {
+        border-radius: 10px;
+    }
+    
+    /* Define a style for the resources sections with a hover effect */
+    .general-resources:hover, .specific-resources:hover {
+        box-shadow: 0px 0px 20px #cccccc;
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out;
+    }
+    
+    /* Adding a beautiful background image for the body */
+    body {
+    background-image: url("https://i.ibb.co/QYz6JnF/japanese-background.jpg");
+    background-size: cover;
+    }
+    
+    /* Adding a color for the heading text */
+    h1 {
+    color: #fff;
+    text-shadow: 2px 2px #333;
+    }
+    
+    /* Adding a color for the sub-heading text */
+    h2 {
+    color: #fff;
+    text-shadow: 2px 2px #333;
+    }
+    
+    /* Adding a color for the links in the resource section */
+    .general-resources a, .specific-resources a {
+    color: #fff;
+    text-shadow: 1px 1px #333;
+    }
+    
+    /* Define a style for the navigation bar */
+    header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 0px 10px #cccccc;
+    }
+    
+    /* Define a style for the navigation links */
+    header nav a {
+    color: #333333;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    }
+    
+    /* Define a style for the navigation links when hovered over */
+    header nav a:hover {
+    color: #0066cc;
+    text-decoration: underline;
+    }
+    
+    /* Define a style for the search form */
+    header nav form {
+    display: flex;
+    align-items: center;
+    }
+    
+    /* Define a style for the search input */
+    header nav form input {
+    padding: 5px 10px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    background-color: #f5f5f5;
+    }
+    
+    /* Define a style for the search button */
+    header nav form button {
+    padding: 5px 10px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    }
+    
+    /* Define a style for the search button when hovered over */
+    header nav form button:hover {
+    background-color: #003399;
+    }
+    
+    /* Define a media query for smaller screens /
+    @media only screen and (max-width: 768px) {
+    / Change the flex direction for the resources container */
+    .resources-container {
+    flex-direction: column;
+    }
+    
+    /* Change the width of the resources sections */
+    .general-resources, .specific-resources {
+        width: 100%;
+    }
+    
+    /* Remove the margin between the resources sections */
+    .general-resources {
+        margin-right: 0;
+    }
+    
+    }
+    
+    /* Define a media query for larger screens */
+    @media only screen and (min-width 
+    
